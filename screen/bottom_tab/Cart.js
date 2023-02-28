@@ -1,4 +1,4 @@
-import { View, Text } from 'react-native'
+import { View, Text,Image } from 'react-native'
 import React from 'react'
 
 const Cart = () => {
@@ -6,7 +6,7 @@ const Cart = () => {
    <View style={styles.container}>
             <View style={styles.Arow}>
                 <Image
-                    source={require('../media/images/IconArrow.png')}
+                    source={require('../assets/img/')}
                 />
                 <Text style={styles.textcart}>Cart</Text>
                 <View></View>
@@ -21,7 +21,7 @@ const Cart = () => {
             <View style={styles.ViewTong}>
                 <View style={styles.imgtext} >
                     <Image
-                        source={require('../media/images/tao.png')}
+                        //source={require('../assets/img/IconArrow.png')}
                     />
                     <Text style={styles.RedApple}>Red Apple</Text>
                 </View>
@@ -29,13 +29,13 @@ const Cart = () => {
                 <View style={styles.ViewCongtru}>
                     <View style={styles.tru}>
                         <Image style={styles.imgtru}
-                            source={require('../media/images/minus.png')}
+                         //   source={require('../media/images/minus.png')}
                         />
                     </View>
                     <Text>2</Text>
                     <View style={styles.cong}>
                         <Image
-                            source={require('../media/images/cong.png')}
+                           // source={require('../media/images/cong.png')}
                         />
                     </View>
                 </View>
@@ -49,7 +49,7 @@ const Cart = () => {
             <View style={styles.ViewTong}>
                 <View style={styles.imgtext} >
                     <Image
-                        source={require('../media/images/chuoi.png')}
+                       // source={require('../media/images/chuoi.png')}
                     />
                     <Text style={styles.RedApple}>Red Apple</Text>
                 </View>
@@ -57,12 +57,12 @@ const Cart = () => {
                 <View style={styles.ViewCongtru}>
                     <View style={styles.tru}>
                     <Image style={styles.imgtru}
-                            source={require('../media/images/minus.png')}
+                           // source={require('../media/images/minus.png')}
                         />
                     </View>
                     <Text>2</Text>
                     <View style={styles.cong}>
-                    source={require('../media/images/cong.png')}
+                    {/* source={require('../media/images/cong.png')} */}
                     </View>
                 </View>
             </View>
@@ -76,7 +76,7 @@ const Cart = () => {
             <View style={styles.ViewTong}>
                 <View style={styles.imgtext} >
                     <Image
-                        source={require('../media/images/bo.png')}
+                       // source={require('../media/images/bo.png')}
                     />
                     <Text style={styles.RedApple}>Red Apple</Text>
                 </View>
@@ -84,12 +84,12 @@ const Cart = () => {
                 <View style={styles.ViewCongtru}>
                     <View style={styles.tru}>
                     <Image style={styles.imgtru}
-                            source={require('../media/images/minus.png')}
+                          //  source={require('../media/images/minus.png')}
                         />
                     </View>
                     <Text>2</Text>
                     <View style={styles.cong}>
-                    source={require('../media/images/cong.png')}
+                    {/* source={require('../media/images/cong.png')} */}
                     </View>
                 </View>
             </View>
@@ -102,7 +102,7 @@ const Cart = () => {
             <View style={styles.ViewTong}>
                 <View style={styles.imgtext} >
                     <Image
-                        source={require('../media/images/ca.png')}
+                       // source={require('../media/images/ca.png')}
                     />
                     <Text style={styles.RedApple}>Red Apple</Text>
                 </View>
@@ -110,12 +110,12 @@ const Cart = () => {
                 <View style={styles.ViewCongtru}>
                     <View style={styles.tru}>
                     <Image style={styles.imgtru}
-                            source={require('../media/images/minus.png')}
+                            // source={require('../media/images/minus.png')}
                         />
                     </View>
                     <Text>2</Text>
                     <View style={styles.cong}>
-                    source={require('../media/images/cong.png')}
+                    {/* source={require('../media/images/cong.png')} */}
                     </View>
                 </View>
             </View>
